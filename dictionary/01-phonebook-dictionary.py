@@ -14,7 +14,7 @@ print("\nKareem's phone number was added: ", phonebook_dict)
 
 # Task: Delete Alice's phone entry.
 phonebook_dict["Alice"] = ""
-print("\nAlice's phone number was deleted: ", phonebook_dict)
+print("\nAlice's phone number was deleted: ", phonebook_dict, end=" ")
 
 # Change Bob's phone number to '968-345-2345'
 for name, phone in phonebook_dict.items():

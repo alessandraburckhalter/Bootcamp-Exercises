@@ -32,7 +32,7 @@ print("Here is Ramit's email address: ", ramit['email'])
 print("Here is Ramit's first interest: ", ramit['interests'][0])
 
 # Write a python expression that gets the email address of Jasmine.
-print("Here is Jasmine's address: ", ramit['friends'][0]['email'])
+print("Here is Jasmine's email address: ", ramit['friends'][0]['email'])
 
 # Write a python expression that gets the second of Jan's two interests.
 print("Here is Jan's second interest: ", ramit['friends'][1]['interests'][1])

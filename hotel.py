@@ -61,73 +61,74 @@ check_out('102')
 
 
 
+teste = {
 
-
-hotel2 = {
-     '201': {
-        'guest': {
-            'name': 'Alessandra',
-            'phone': 1515151
-        }
+    'hotel2' : {
+         '201': {
+            'guest': {
+                'name': 'Alessandra',
+                'phone': 1515151
+            }
+        },
+        '202': {},
+        '203': {},
+        '204': {
+            'guest': {
+                'name': 'Jacky',
+                'phone': 9009099
+            }
+        },
+        '205': {},
     },
-    '202': {},
-    '203': {},
-    '204': {
-        'guest': {
-            'name': 'Jacky',
-            'phone': 9009099
+
+    'hotel3' : {
+        '301': {
+            'guest': {
+                'name': 'Alessandra',
+                'phone': 1515151
          }
+        },
+        '302': {},
+        '303': {},
+        '304': {
+            'guest': {
+                'name': 'Jacky',
+                'phone': 9009099
+            }
+        },
+        '305': {},
     },
-    '205': {},
+
+    'hotel4' : {
+        '401': {
+            'guest': {
+                'name': 'Alessandra',
+                'phone': 1515151
+            }
+        },
+        '402': {},
+        '403': {},
+        '404': {
+            'guest': {
+                'name': 'Jacky',
+                'phone': 9009099
+            }
+        },
+        '405': {},
+    }
 }
 
-hotel3 = {
-     '301': {
-        'guest': {
-            'name': 'Alessandra',
-            'phone': 1515151
-        }
-    },
-    '302': {},
-    '303': {},
-    '304': {
-        'guest': {
-            'name': 'Jacky',
-            'phone': 9009099
-         }
-    },
-    '305': {},
-}
-
-hotel4 = {
-     '401': {
-        'guest': {
-            'name': 'Alessandra',
-            'phone': 1515151
-        }
-    },
-    '402': {},
-    '403': {},
-    '404': {
-        'guest': {
-            'name': 'Jacky',
-            'phone': 9009099
-         }
-    },
-    '405': {},
-}
-hotels = [hotel2, hotel3, hotel4]
 def print_status():
-    for hotel in hotels:
-        for key in hotel.keys():
-            if hotel[key]:
-                print(f"{key} Guest name: {hotel[key]['guest']['name']}.")
+    for hotel in teste:
+        for room, info in teste[hotel].items():
+            if len(info) > 0 :
+                print(f'Room {room} ococcupied')
             else:
-                print(f"Room {key} is empty.")
+                print(f'Room {room} is empty.')
 
-def check_in2(user_checkin_hotel, user_checking_room):
-    if 
-
+def check_in2(nome, user_checking_room):
+    teste[nome] = user_checking_room
+    print(f"\n{teste[hotel]} checked in to room {hotel}.")
 
 while True:
     user_input = int(input("""\nMain Menu
@@ -136,11 +137,15 @@ while True:
     \n[2] Check in customer
     \n[3] Check out customer
     \n[4] Quit\n> """))
-    print(user_input)
     if user_input == 1:
         print_status()
+    print("=-=" * 20)
     if user_input == 2:
-        user_checkin_hotel = input("What hotel would you like? ").lower()
-        user_checking_room = int(input("What room would you like?")
-
+        for name, place in teste.items():
+            print(name.title())
+        user_checkin_hotel = input("Which hotel would you like to stay in? ").lower()
+        print_status()
+        user_checking_room = int(input("What room would you like?"))
+        check_in2(hotel, user_checking_room)
+       
 
