@@ -1,4 +1,7 @@
-# <p align="center"> Bootcamp Exercises :books:
+# <div align="center"> Bootcamp Exercises :books: </div>
+  
+<p align="center">
+<img src="https://img.shields.io/github/languages/count/alessandraburckhalter/Bootcamp-Exercises?color=green"> <img src="https://img.shields.io/github/languages/top/alessandraburckhalter/Bootcamp-Exercises?color=green"> <img src="https://img.shields.io/github/last-commit/alessandraburckhalter/Bootcamp-Exercises?color=green"></p>
 
 ## :book: About the repository
 This repository was created to store the exercises developed during the coding bootcamp at DigitalCrafts.
