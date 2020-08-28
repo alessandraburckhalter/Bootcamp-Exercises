@@ -27,6 +27,8 @@ This repository was created to store the exercises developed during the coding b
 - [x] 02-celsius-to-fahrenheit.py
 - [x] 03-is-even.py
 - [x] 04-lenght.py
+- [x] 05-frequency-digits.py
+- [x] 06-most-characters.py
 
 **:open_file_folder: Python101**
 - [x] 01-hello-you.py
