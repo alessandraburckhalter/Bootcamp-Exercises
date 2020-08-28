@@ -28,10 +28,10 @@ print(find_shortest_word(["PHP", "Exercises", "Backend"]))
 
 # Task 4: Write a function longest that accepts a List of Strings as an argument. It should return the longest String in the List
 def find_longest_word(words_list):
-    word_len = []
-    for n in words_list:
+        word_len = []
+        for n in words_list:
         word_len.append((len(n), n))
-    word_len.sort()
-    return word_len[-1][1]
+        word_len.sort()
+        return word_len[-1][1]
 
 print(find_longest_word(["PHP", "Exercises", "Backend"]))

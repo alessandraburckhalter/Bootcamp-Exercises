@@ -1,8 +1,10 @@
-# Using the dictionary from the Nested dictionaries exercise above, write a function countFriends() that accepts a dictionary as an argument and returns a new dictionary that includes a new key friends_count
+# Using the dictionary from the Nested dictionaries exercise below, write a function countFriends() that accepts a dictionary as an argument and returns a new dictionary that includes a new key friends_count
 def countFriends(a_dic):
-  friends = 0
-      
-
+  count = 0
+  for friends in a_dic['friends']:
+    count += 1
+    a_dic['friends_count'] = count
+    return a_dic
 
 # dictionary
 ramit = {
@@ -35,5 +37,8 @@ print("Here is Jasmine's email address: ", ramit['friends'][0]['email'])
 # Write a python expression that gets the second of Jan's two interests.
 print("Here is Jan's second interest: ", ramit['friends'][1]['interests'][1])
 
-# return the function 
-# print(countFriends(ramit))
+# call the function 
+ramit = (countFriends(ramit))
+
+# print new dictionary with friends_count in it
+print(f"\n{ramit}")
