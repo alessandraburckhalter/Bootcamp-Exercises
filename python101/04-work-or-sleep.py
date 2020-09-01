@@ -1,7 +1,9 @@
+#Task: Prompt the user for a day of the week just like the previous problem. But this time, print "Go to work" if it's a work day and "Sleep in" if it's a weekend day. 
+
 print("New week ahead!")
 print("Enter a number from 0 to 6.")
 
-for x in range(0, 7):
+for num in range(0, 7):
     day = int(input("Day (0-6)? "))
     if day == 0:
         print("It's Sunday! Sleep in.")

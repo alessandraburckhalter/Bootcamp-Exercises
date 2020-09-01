@@ -1,21 +1,23 @@
+#Task: Given a paragraph of text as a String, print the paragraph in leetspeak.
+
 text = input("Type a sentence: ").upper()
 
 leet = ' '
 
-for x in text:
-    if x == 'A':
+for letter in text:
+    if letter == 'A':
         leet += '4'
-    elif x == 'E':
+    elif letter == 'E':
         leet += '3'
-    elif x == 'G':
+    elif letter == 'G':
         leet += '6'
-    elif x == 'I':
+    elif letter == 'I':
         leet += '1'
-    elif x == 'O':
+    elif letter == 'O':
         leet += '0'
-    elif x == 'S':
+    elif letter == 'S':
         leet += '5'
-    elif x == 'T':
+    elif letter == 'T':
         leet += '7'
     else:
         leet += x

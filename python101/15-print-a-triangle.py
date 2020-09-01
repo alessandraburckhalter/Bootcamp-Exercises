@@ -1,3 +1,5 @@
+#Task: Print a triangle consisting of * characters 
+
 rows = 10
 count = 0
 

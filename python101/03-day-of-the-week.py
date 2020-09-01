@@ -1,6 +1,8 @@
+#Task: The user will enter a number from 0 to 6. Given this number, print a day of the week. 0 for Sunday, 1 for Monday, 2 for Tuesday, and so on.
+
 print("Enter a number from 0 to 6.")
 
-for x in range(0, 7):
+for num in range(0, 7):
     day = int(input("Day (0-6)? "))
     if day == 0:
         print("Sunday")

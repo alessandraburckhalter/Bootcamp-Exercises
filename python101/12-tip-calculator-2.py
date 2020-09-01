@@ -1,3 +1,5 @@
+#Task: Allow the ability to divide the check into a equal parts amount a number of people. The user will enter the number of people to be divided amongst.
+
 total = float(input("Total bill amount? "))
 level = str(input("""\nLevel of service:
 good -> 20%

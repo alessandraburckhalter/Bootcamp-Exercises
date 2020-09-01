@@ -1,3 +1,5 @@
+#Task: Take a user's input for a number, and then print out all numbers f rom 1 to t ha t number. For any number divisible by 3, print 'fizz'. For any number divisible by 5, print 'buzz'. Any number divisible by 3 AND 5, print 'fizzbuzz'.
+
 # ask user to input a positive number
 user_input = int(input("Hi there. Please, enter a positive number: "))
 

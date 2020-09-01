@@ -83,7 +83,7 @@ def remove_function():
             # do something else
             main_menu()
         elif len(list) == 0:
-            print('There is nothing left in here')
+            print('There is nothing left in here.')
             main_menu()
         counter2 += 1
 main_menu()
