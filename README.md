@@ -18,6 +18,17 @@ This repository was created to store the exercises developed during the coding b
 - [x] 03-letter-summary.py
 - [x] 04-phone-book-app.py
 
+**:open_file_folder: HTML-101**
+- [x] 01-headings.html
+- [x] 02-nesting-tags.html
+- [x] 03-lists.html
+- [x] 04-lines.html
+- [x] 05-styling-text.html
+- [x] 06-images.html
+- [x] 07-links.html
+- [x] 08-linking-images.html
+- [x] 09-sample-document.html
+
 **:open_file_folder: Object Oriented Programming**
 - [x] 01-use-a-class.py
 - [x] 02-class-vehicle.py
