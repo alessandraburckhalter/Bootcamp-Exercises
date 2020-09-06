@@ -1,39 +1,19 @@
 #Task: Given a word as a string, print the result of extending any long vowels.
 
-# Function to check for the Vowel 
-def isVowel(ch): 
-    ch = ch.upper() 
-    if (ch == 'A' or ch == 'E' or 
-        ch == 'I' or ch == 'O' or 
-        ch == 'U'): 
-        return True
-    else: 
-        return False
+vowels = "aeiou"
 
-# Function to get the resultant String 
-# with vowels duplicated 
-def duplicateVowels(S): 
-    t = len(S) 
+text = "scoot the door open for the cheese"
+new_text = ""
 
-    # Another to store 
-    # the resultant String 
-    res = "" 
+n = 0
+while n < len(text):
+  if text[n] in vowels and (n+1) < len(text):
+    if text[n] == text[n+1]:
+      new_text = new_text + (text[n] * 3)
+    else:
+      new_text = new_text + text[n]
+  else:
+    new_text = new_text + text[n]
+  n = n + 1
 
-    # Loop to check for each character 
-    for i in range(t): 
-        if (isVowel(S[i])): 
-            res += S[i]
-        
-        res += S[i] 
-
-    return res
-
-S = str(input("Type the word you want to increase the vowel:\n> "))
-
-# Print the original String 
-print("Original String: ", S) 
-
-res = duplicateVowels(S) 
-
-# Print the resultant String 
-print("String with Vowels duplicated: ", res)
+print(new_text)

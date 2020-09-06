@@ -24,7 +24,7 @@ dict_ = dict(words)
 print(dict_)
 
 # Given a histogram tally (one returned from either letter_histogram or word_histogram), print the top 3 words or letters.
-
+P
 sort = sorted(dict_, key=dict_.get, reverse=True)
 for eachline in sort[:3]:
     print(f'\n{eachline}')
