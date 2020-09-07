@@ -12,6 +12,10 @@ This repository was created to store the exercises developed during the coding b
 - [x] hello.txt
 - [x] hotel.py
 
+**:open_file_folder: Bootstrap**
+- [x] 01-contact-us.html
+- [x] 02-basic-layout.html
+
 **:open_file_folder: Dictionary**
 - [x] 01-phonebook-dictionary.py
 - [x] 02-nested-dictionaries.py
