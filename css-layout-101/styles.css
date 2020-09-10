@@ -1,0 +1,29 @@
+/* You don't need to adjust these styles, but you can if you'd like */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer,
+main,
+aside {
+  padding: 10px;
+}
+
+header,
+footer {
+  background-color: #999;
+}
+
+aside {
+  background-color: #ccc;
+}
