@@ -16,11 +16,34 @@ This repository was created to store the exercises developed during the coding b
 - [x] 01-contact-us.html
 - [x] 02-basic-layout.html
 
+**:open_file_folder: CSS Layout 101**
+- [x] 1-absolute.css
+- [x] 1-absolute.html
+- [x] 2-floats.css
+- [x] 2-floats.html
+- [x] 3-flex.css
+- [x] 3-flex.html
+- [x] 4-grid.css
+- [x] 4-grid.html
+- [x] styles.css
+
 **:open_file_folder: Dictionary**
 - [x] 01-phonebook-dictionary.py
 - [x] 02-nested-dictionaries.py
 - [x] 03-letter-summary.py
 - [x] 04-phone-book-app.py
+
+**:open_file_folder: Dom Exercises**
+
+**:open_file_folder: Dom Starter Code**
+
+**:open_file_folder: Events JS**
+- [x] log-button-click.html
+- [x] log-button-click.js
+- [x] shopping-list.html
+- [x] shopping-list.js
+
+**:open_file_folder: High on Coding**
 
 **:open_file_folder: HTML-101**
 - [x] 01-headings.html
@@ -76,6 +99,8 @@ This repository was created to store the exercises developed during the coding b
 - [x] 29-fizzbuzz.py
 - [x] 30-fibonacci-sequence.py
 - [x] 31-grocery-list.py
+
+**:open_file_folder: Rendering**
 
 <br>
 
