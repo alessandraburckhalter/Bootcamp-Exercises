@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+</head>
+<body>
+    <h1>🍕 Are you ready to order your pizza? 🍕</h1>
+    <h2>Please, fill out the form below to place your order 📝</h2>
+    <fieldset>
+        <legend>Crust</legend><br>
+        <label for="crust-select">What type of crust would you like?</label>
+        <select name="crust" id="crust-select">
+        <option value="" disabled selected>--Please choose only one option--</option>
+        <option value="hand-tossed">Hand Tossed</option>
+        <option value="handmade-pan">Handmade Pan</option>
+        <option value="crunchy-thin-crust">Crunchy Thin Crust</option>
+        <option value="brooklyn-style">Brooklyn Style</option>
+        <option value="gluten-free">Gluten Free</option>
+    </select>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Toppings</legend>
+        <p><label> <input type="checkbox" checked /> Pepperoni </label></p>
+        <p><label> <input type="checkbox" /> Mushrooms </label></p>
+        <p><label> <input type="checkbox" /> Onions </label></p>
+        <p><label> <input type="checkbox" /> Sausage </label></p>
+        <p><label> <input type="checkbox" /> Bacon </label></p>
+        <p><label> <input type="checkbox" /> Extra cheese </label></p>
+        <p><label> <input type="checkbox" /> Black olives </label></p>
+        <p><label> <input type="checkbox" /> Green peppers </label></p>
+      </fieldset><br>
+
+      <fieldset>
+        <legend>Would you like to pick it up or have it delivered?</legend><br>
+        <div>
+        <label><input type="radio" name="delivery" id="yes" value="pick">I will pick it up!</label>
+    </div><br>
+        <label><input type="radio" name="delivery" id="yes" value="del">Delivered, please.</label>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Your information</legend><br>
+        <div>
+        <label>Name <input type="text" name="info" id="write-name" placeholder="Please, enter your name here"></label>
+    </div><br>
+        <div>
+        <label>Address <input type="text" name="info" id="write-address" placeholder="Please, enter your address here" ></label>
+    </div>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Enter additional instruction here</legend><br>
+        <p><textarea id="experience-input" name="experience" placeholder="If you have any additional instruction, please, enter here." value=""></textarea> </p>
+      </fieldset>
+    
+</body>
+</html>
