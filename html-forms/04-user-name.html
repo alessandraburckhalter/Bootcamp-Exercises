@@ -22,7 +22,7 @@
             const myRegex = /.{8,}/;
             if (!myRegex.test(nameInput.value)) {
             nameInput.setCustomValidity(
-            "Username should contain minimum 8 characters"
+            "Username must contain at least 8 characters"
             );
         } else {
             nameInput.setCustomValidity("");
