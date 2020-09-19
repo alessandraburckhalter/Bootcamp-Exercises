@@ -12,6 +12,10 @@ This repository was created to store the exercises developed during the coding b
 - [x] hello.txt
 - [x] hotel.py
 
+**:open_file_folder: Ajax 101**
+- [x] generate-doggo
+- [x] small-exercises
+
 **:open_file_folder: Bootstrap**
 - [x] 01-contact-us.html
 - [x] 02-basic-layout.html
@@ -55,6 +59,19 @@ This repository was created to store the exercises developed during the coding b
 - [x] 07-links.html
 - [x] 08-linking-images.html
 - [x] 09-sample-document.html
+
+**:open_file_folder: HTML Forms**
+- [x] 01-create-a-form.html
+- [x] 02-order-a-pizza.html
+- [x] 03-required-field.html
+- [x] 04-user-name.html
+
+**:open_file_folder: Promises JS**
+- [x] 01-stopwatch.js
+- [x] 02-tortoise-hare.html
+- [x] 02-tortoise-hare.js
+- [x] 03-characters-in-book.html
+- [x] 03-characters-in-book.js
 
 **:open_file_folder: Object Oriented Programming**
 - [x] 01-use-a-class.py
