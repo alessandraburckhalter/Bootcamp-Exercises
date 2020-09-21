@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    /*
+    Make a Todo List
+
+    0. Make it so that after entering the task description, in the text field and clicking the "Add Task" button, a new task appears inside the element with the id todo-list.
+    1. the ability to remove tasks (add an x button)
+    2. the ability to check off tasks - strikes them out wo removing (add a checkbox)
+    3. the ability to delete a task
+    4. the ability to edit an existing task
+
+    */
+    $(function() {
+      
+      // creating the delete button
+      $('#wrapper').append(`<button id='delete' type='button'>Delete</button>`)
+
+      // adding tasks, checkbox, edit button and x button to the list
+      $('#add-button').click(function (e) {
+        e.preventDefault()
+        const text = $('#description').val() // val() get the value of description
+        $('#todo-list').append(`<li>${text} <input type='checkbox' name="checkbox" id='checkbox'</input> <button id='x-button' type='button'>X</button> <button class='edit' type='button'>edit</button></li>`);
+        $('#description').val('')
+
+      // deleting a task
+      $('#x-button').click(function (e) {
+        e.preventDefault()
+        $(this).parent().remove()
+      })
+
+      // deleting a checked box
+      $('#delete').click(function (e) {
+        e.preventDefault()
+        $('input[name="checkbox"]:checked').parent().remove()
+      })
+
+      })
+
+      // editing a task
+      $('#todo-list').on('click', '.edit', function(e) {
+        $(this).parent().append(`<input type='text' class='edit-input'> <button type='button' class='save'>save</button>`)
+      })
+
+      // saving edited task
+      $('#todo-list').on('click', '.save', function (e) {
+        $(this).
+      })
+      
+    });
+    </script>
+    <style>
+    #wrapper {
+      max-width: 480px;
+      margin: auto;
+    }
+
+    #description, #search, #todo-list {
+      font-size: 1.5em;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <input id="description" type="text" name="description">
+      <button id="add-button">Add Task</button>
+      <ul id="todo-list">
+        <li>Feed the cat</li>
+      </ul>
+    </div>
+  </body>
+</html>
