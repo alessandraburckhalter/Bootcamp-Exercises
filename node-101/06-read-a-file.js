@@ -2,19 +2,21 @@
 
 //Assuming the file file1.txt contains the text: "Hello, I am file 1."
 
-const fs = require('fs')
-const readline = require("readline");
-
-// create readline interface
-const rl = readline.createInterface({
-  input: process.stdin, // input
-  output: process.stdout, // it's like console log
+const fs = require('fs');
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
 });
 
-// use rl to ask question
-rl.question("Domain Name: ", function (answer) {
-    readline.close(); // close/stop the input on the terminal
-    const data = fs.readFileSync(answer, 'utf8')
-    console.log(data)
-    rl.close();
+readline.question('filename: ', function(filename) {
+  readline.close();
+  fs.readFile(filename, function(error, buffer) {
+    if (error) {
+      console.log(error.message);
+      return;
+    }
+    const content = buffer.toString();
+    const upperCased = content.toUpperCase();
+    console.log(upperCased);
+  });
 });
