@@ -29,6 +29,7 @@ app.get('/greet/:name', (req, res) => {
     res.send(`<h1>Hello, ${name} :) </h1>`)
 })
 
+// query
 app.get('/year', (req, res) => {
     const {age} = req.query;
     const year = 2020;
