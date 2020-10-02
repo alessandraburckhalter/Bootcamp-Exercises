@@ -1,24 +1,24 @@
 const friends = [
     {
-        name: 'Ale',
-        handle: 'none',
-        skill: 'none'
+        name: 'Finley',
+        handle: '@fin',
+        skill: 'deep sea diving'
     },
     {
-        name: 'Ale',
-        handle: 'none',
-        skill: 'none'
+        name: 'Skyler',
+        handle: '@blue',
+        skill: 'base jumping'
     },
     {
-        name: 'Ale',
-        handle: 'none',
-        skill: 'none'
+        name: 'Lennon',
+        handle: '@walrus',
+        skill: 'public speaking'
     },
     {
-        name: 'Ale',
-        handle: 'none',
-        skill: 'none'
+        name: 'Charlie',
+        handle: '@chaz',
+        skill: 'cozy sweaters'
     },
-];
-
-module.exports = friends;
+  ];
+  
+  module.exports = friends;
