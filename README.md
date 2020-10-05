@@ -47,6 +47,10 @@ This repository was created to store the exercises developed during the coding b
 - [x] shopping-list.html
 - [x] shopping-list.js
 
+**:open_file_folder: Express 101**
+- [x] 01-server.js
+- [x] data.js
+
 **:open_file_folder: High on Coding**
 
 **:open_file_folder: HTML-101**
@@ -66,16 +70,34 @@ This repository was created to store the exercises developed during the coding b
 - [x] 03-required-field.html
 - [x] 04-user-name.html
 
+**:open_file_folder: JQuery 101**
+- [x] exercise-1.html
+- [x] exercise-2.html
+- [x] exercise-3.html
+- [x] exercise-4.html
+- [x] exercise-5.html
+- [x] exercise-6.html
+- [x] exercise-7.html
+
+**:open_file_folder: Node 101**
+- [x] 01-index.js
+- [x] 02-math.js
+- [x] 03-hello.js
+- [x] 04-hello-world-server.js
+- [x] 05-dns-lookup.js
+- [x] 06-read-a-file.js
+- [x] 07-read-and-write-file.js
+
+**:open_file_folder: Object Oriented Programming**
+- [x] 01-use-a-class.py
+- [x] 02-class-vehicle.py
+
 **:open_file_folder: Promises JS**
 - [x] 01-stopwatch.js
 - [x] 02-tortoise-hare.html
 - [x] 02-tortoise-hare.js
 - [x] 03-characters-in-book.html
 - [x] 03-characters-in-book.js
-
-**:open_file_folder: Object Oriented Programming**
-- [x] 01-use-a-class.py
-- [x] 02-class-vehicle.py
 
 **:open_file_folder: Python Functions**
 - [x] 01-malib-function.py
