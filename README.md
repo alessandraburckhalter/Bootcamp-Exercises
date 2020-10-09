@@ -141,6 +141,8 @@ This repository was created to store the exercises developed during the coding b
 
 **:open_file_folder: Rendering**
 
+**:open_file_folder: Sequelize Project**
+
 <br>
 
 ## :wave: Let's connect!
