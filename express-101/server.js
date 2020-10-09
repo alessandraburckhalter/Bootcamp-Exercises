@@ -7,9 +7,16 @@ const radLogger = require('./middleware/radlogger');
 const hostname = '127.0.0.1'; // localhost (our computer)
 const port = 3000; // port to run server on
 
+
 const app = express(); // creating express app
 
+const es6Renderer = require('express-es6-template-engine');
+app.engine('html', es6Renderer);
+app.set('views', 'templates');
+app.set('view engine', 'html');
+
 const server = http.createServer(app); // use app to handle server requests
+
 
 // look for static files in 'public' folder first
 app.use(express.static('public'))
@@ -43,7 +50,7 @@ app.get('/', (req, res) => {
   // (default to 'World' if no 'name' query param exists)
   const name = req.query.name || 'World';
   // sends back html h1 tag
-  res.send(`<h1>Hello, ${name}</h1>`)
+  res.render('home')
 })
 
 // about page
